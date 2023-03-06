@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca64f9f7-7129-475b-9887-587add6d4ea0">
+  <name>Сведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.ТоварыНаСкладах</content>
+  <content>AccumulationRegister.ОбъемыЗакупок</content>
+  <content>InformationRegister.ШтрихкодыНоменклатуры</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>InformationRegister.КурсВалют</content>
+</mdclass:Subsystem>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="105143d6-a34c-4c48-8cbe-2ea1fe8e85b4">
+  <producedTypes>
+    <selectionType typeId="17b44dac-46d7-41ee-a156-69c4c4ff8b4b" valueTypeId="33db9b60-714b-45aa-8595-7f83f39e7ee5"/>
+    <listType typeId="56973cfa-1c5d-4d95-b8ff-fcad6f58da5b" valueTypeId="3f4d8e3f-db3c-4b51-ad3a-26310ed4d150"/>
+    <managerType typeId="f0e1b95a-04c2-4f61-87db-cf262c6549a4" valueTypeId="134803fa-169b-48c9-9218-34c71a5bab84"/>
+    <recordSetType typeId="16c6e8b2-7880-43cb-9bc6-f1d0fba0dedf" valueTypeId="5e27392e-7cef-451b-a29c-5e0ffd03a0e8"/>
+    <recordKeyType typeId="aa4da27d-878b-478d-9b1e-cece8ed6be63" valueTypeId="f9ec2d83-e0c8-4dfc-8cf4-09ac00e57c7e"/>
+    <recordType typeId="327dacd3-4857-443b-8c0a-988c3c73b3ff" valueTypeId="19fd1660-2b88-4532-a916-fd55bf7c8d46"/>
+    <recordManagerType typeId="1dd81d63-f86e-4253-a578-9c7190fc901e" valueTypeId="0d670499-4e49-4782-b511-5e033710625e"/>
+  </producedTypes>
+  <name>ШтрихкодыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ШтрихкодыНоменклатуры.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="15934000-014d-4c3f-880e-7abb4f652deb">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="46eeddf9-d1e3-43f2-b166-707c105a03c4">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="eae01b30-a74f-465e-9be8-09219ce65eab">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="519cc18b-df9e-4c42-90b7-306c3f37b92c">
+    <name>ШтрихкодыНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкоды номенклатуры</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Номенклатура</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

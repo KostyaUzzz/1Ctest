@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d665e582-793f-443e-aad0-fcc3ac9da6ac">
+  <producedTypes>
+    <selectionType typeId="0b569d13-6628-4cb6-b386-e60ac59b20af" valueTypeId="dcd9c847-6b1f-4cb5-b558-1fa0df2645dd"/>
+    <listType typeId="803e42ee-028b-459d-97ba-e86f9baee782" valueTypeId="9234ddf9-a519-4f30-97cc-500164369196"/>
+    <managerType typeId="a6064fe1-0686-4f63-8681-f1edd8a2517f" valueTypeId="5deda3e7-6055-4424-89c7-f3102611d695"/>
+  </producedTypes>
+  <name>КассовыеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассовые документы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ОплатаЧерезКассу</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеВКассу</registeredDocuments>
+  <columns uuid="ebd8e358-41e7-450a-980f-bdcdcd61c926">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ОплатаЧерезКассу.Attribute.Контрагент</references>
+    <references>Document.ПоступлениеВКассу.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="55ee70b3-2a62-4a72-aeb9-c893ce812134">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <references>Document.ОплатаЧерезКассу.Attribute.Заказ</references>
+    <references>Document.ПоступлениеВКассу.Attribute.Заказ</references>
+  </columns>
+  <columns uuid="22b42029-f7d5-4562-badb-e01d8aeb4269">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ПоступлениеВКассу.Attribute.Сумма</references>
+    <references>Document.ОплатаЧерезКассу.Attribute.Сумма</references>
+  </columns>
+</mdclass:DocumentJournal>

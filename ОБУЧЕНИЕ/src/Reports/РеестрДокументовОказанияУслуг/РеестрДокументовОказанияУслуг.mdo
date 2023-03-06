@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a26d8ae8-9469-4a13-a15d-184535af66dd">
+  <producedTypes>
+    <objectType typeId="bcd48943-f80e-4863-93c0-de909e5e70f6" valueTypeId="6dc61ae1-d7d2-452f-a210-48dcd4e452db"/>
+    <managerType typeId="50148dca-be90-4e84-afe5-ded7f36d1110" valueTypeId="44a425b1-877e-4357-91de-e8a1e31d757c"/>
+  </producedTypes>
+  <name>РеестрДокументовОказанияУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр документов оказания услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

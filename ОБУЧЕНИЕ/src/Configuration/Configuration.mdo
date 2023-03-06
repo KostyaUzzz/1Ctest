@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b27afdb-7930-4cfc-bde8-8403a7fdfe30">
+  <name>АвтоматизацияТорговогоПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматизация торгового предприятия</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5e7e8c72-d881-4bf9-aca4-9af0d7ad9bab"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="246e87a7-7e9b-4fb9-8afe-490a1797acd7"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="737dc95a-f1aa-4c1c-b260-ebe897dee258"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9f91c5dd-c01a-411f-b120-543bbe484cd2"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="bb426218-fc51-4a5f-bb14-2fd4c0acba26"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d454b030-b788-49b3-bbb2-62b580d2a48d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c8a0fba7-70c9-4815-9fb0-3e3302614270"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.8</compatibilityMode>
+  <languages uuid="37109ecb-c9ee-4594-a7d6-4e41ee4c542d">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Казначейство</subsystems>
+  <subsystems>Subsystem.Сведения</subsystems>
+  <subsystems>Subsystem.ОказаниеУслуг</subsystems>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка2</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка3</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка4</commonPictures>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Мастер</roles>
+  <commonModules>CommonModule.РаботаСДокументами</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <commonModules>CommonModule.РегламентныеПроцедуры</commonModules>
+  <scheduledJobs>ScheduledJob.ОбновлениеИндекса</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СлияниеИндексов</scheduledJobs>
+  <commonCommands>CommonCommand.Приветствие</commonCommands>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Банки</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.БанковскиеСчетаКонтрагентов</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
+  <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
+  <catalogs>Catalog.Субконто</catalogs>
+  <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.ОплатаЧерезКассу</documents>
+  <documents>Document.СписаниеСБанковскогоСчёта</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.ПоступлениеВКассу</documents>
+  <documents>Document.ПоступлениеНаБанковскийСчёт</documents>
+  <documents>Document.УстановкаЦен</documents>
+  <documents>Document.УстановкаКурсаВалют</documents>
+  <documents>Document.УстановкаОкладов</documents>
+  <documents>Document.ОказаниеУслуги</documents>
+  <documentJournals>DocumentJournal.СкладскиеДокументы</documentJournals>
+  <documentJournals>DocumentJournal.КассовыеДокументы</documentJournals>
+  <documentJournals>DocumentJournal.БезналичныеПлатежи</documentJournals>
+  <enums>Enum.ТипЦен</enums>
+  <enums>Enum.ВидНоменклатуры</enums>
+  <reports>Report.ТоварыНаСкладах</reports>
+  <reports>Report.Продажи</reports>
+  <reports>Report.ЦеныПоставщиков</reports>
+  <reports>Report.Материалы</reports>
+  <reports>Report.РеестрДокументовОказанияУслуг</reports>
+  <reports>Report.ПереченьУслуг</reports>
+  <reports>Report.ВыручкаМастеров</reports>
+  <reports>Report.РейтингКлиентов</reports>
+  <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.ОстаткиТоваровПоНаборуСвойств</reports>
+  <reports>Report.ОборотноСальдоваяВедомость</reports>
+  <dataProcessors>DataProcessor.Обработка</dataProcessors>
+  <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.КурсВалют</informationRegisters>
+  <informationRegisters>InformationRegister.Штрихкоды</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ОкладыСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначениеСвойствНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОбъемыЗакупок</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОбъемыПродаж</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Основной</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd9f26e7-74ca-4071-98f0-5ebc95d36c37">
+  <producedTypes>
+    <objectType typeId="82ee78bf-ff4f-4ab6-8053-ab956cdce2e7" valueTypeId="6c08faef-4469-487a-b0ce-def5b630311e"/>
+    <managerType typeId="d4ef07f3-52b9-4b48-83a7-e56c1524e265" valueTypeId="eb3473ea-f752-41ab-af84-86d8311d3701"/>
+  </producedTypes>
+  <name>ВыручкаМастеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выручка мастеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

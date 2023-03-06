@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="799c3904-9e83-4328-879c-69947c083ecc">
+  <producedTypes>
+    <objectType typeId="012052c7-b63a-437e-905b-60ba38b695f7" valueTypeId="7241c9c3-b81b-47a2-85b5-51cd5edfab27"/>
+    <managerType typeId="7b17adbe-ac9f-4bce-b439-61189f52ceea" valueTypeId="509142fe-2624-4892-9b30-8a7910518272"/>
+  </producedTypes>
+  <name>УниверсальныйОтчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальный отчет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>На самостоятельное изучение</value>
+  </explanation>
+</mdclass:Report>

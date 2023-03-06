@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="838f490c-2473-4e9c-8965-84d2615ef014">
+  <producedTypes>
+    <objectType typeId="516f4c79-fff7-46c2-a292-20e1c719e61d" valueTypeId="a94fa056-192d-40c5-879f-78fe63737c58"/>
+    <managerType typeId="4f616935-53c5-4ebb-a0bb-b46da4e7a2d8" valueTypeId="b467e0c7-7274-486d-9cd8-6a43c556c20e"/>
+  </producedTypes>
+  <name>Материалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Разработать самостоятельно</value>
+  </explanation>
+</mdclass:Report>

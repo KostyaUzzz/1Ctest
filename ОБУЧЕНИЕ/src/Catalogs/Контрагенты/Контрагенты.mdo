@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65d8ae69-9fa8-4697-a27e-6845c592d316">
+  <producedTypes>
+    <objectType typeId="860d7978-601e-4c51-a79d-eea987d4d923" valueTypeId="205b59ec-3f7b-40d6-b894-0761fd723878"/>
+    <refType typeId="8816d7b2-ecd2-4207-bc45-5d9d710121e3" valueTypeId="3bb35ecb-ba41-424a-9b3f-e68a4d9a2b95"/>
+    <selectionType typeId="ccff92d7-0fd4-42e2-a6f2-f276e11087c8" valueTypeId="e41277ae-070b-4b37-941b-d0f14b8631d3"/>
+    <listType typeId="4e6b29d2-5a2f-4b58-9616-9d69f2cfcaf5" valueTypeId="76f86e45-7351-47f0-87d7-7b668f418e73"/>
+    <managerType typeId="461e65d2-3729-4c8b-a966-14536a6405f9" valueTypeId="aba6564b-cb29-4777-bf8a-d98b4d831e66"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1dd7621c-5de8-4ea1-aae6-ec15f5728792">
+      <name>Покупатели</name>
+      <description>Покупатели</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="63b07a8c-17b1-4282-bc63-a1088634b99d">
+        <name>ЭталонныйПокупатель</name>
+        <description>Эталонный покупатель</description>
+        <code xsi:type="core:StringValue">
+          <value>000000003</value>
+        </code>
+      </content>
+    </items>
+    <items id="0b82e8bc-7660-40be-9ccf-f732a19b323d">
+      <name>Поставщики</name>
+      <description>Поставщики</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="059970f4-a884-4a23-aad3-6ad8be56d8b3">
+        <name>ЭталонныйПоставщик</name>
+        <description>Эталонный поставщик</description>
+        <code xsi:type="core:StringValue">
+          <value>000000004</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="d898bfb4-16cc-4869-8817-834f5eee2276">
+    <name>ПолноеЮридическоеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное юридическое наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea3e4317-c0a7-4260-ad1e-6d11f991ade9">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f93d65bb-881d-4b24-91ff-4c71ee57be15">
+    <name>ДатаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="02ef367d-957d-4e44-a1b2-5f6445937a49">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

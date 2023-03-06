@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba9d1397-b069-480b-b36b-2f924c1803e4">
+  <producedTypes>
+    <objectType typeId="01fcc852-2e9c-4b3f-8819-85ac146a62de" valueTypeId="936dbffe-4b28-4422-a1fd-26213559fa40"/>
+    <managerType typeId="52e7bc00-0496-48bf-bc46-43fa3f70adf3" valueTypeId="75df58e2-7f9a-4dff-a3d4-a38349a44c30"/>
+  </producedTypes>
+  <name>ПереченьУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перечень услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>На самостоятельную разработку</value>
+  </explanation>
+</mdclass:Report>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38bfe98c-3087-4c93-9f74-ef573b0686ea">
+  <producedTypes>
+    <selectionType typeId="1650ad54-a896-4fb5-a252-bc92b0fb4823" valueTypeId="8764f314-6ebb-4469-bd62-246092179f17"/>
+    <listType typeId="9c7e4ce2-8451-4746-b213-69ee38b5f32d" valueTypeId="3d3ec3e9-7d84-4e8d-98b3-5d18d0d4d70b"/>
+    <managerType typeId="9549e836-caf4-4e60-ace6-ace66702a9a2" valueTypeId="4e68632d-20bb-4e5a-9e38-8997cb3e0bee"/>
+    <recordSetType typeId="b3821a40-d4d6-49e0-b944-dd43ab8f99a4" valueTypeId="55e7cd6f-9e3a-4daf-aaf6-c17269bc5aaf"/>
+    <recordKeyType typeId="c9f59999-88ad-49dc-bc79-325a59deb019" valueTypeId="7d4ba7a3-112d-4544-b489-c9d3a35c260e"/>
+    <recordType typeId="d89d7039-e473-4b21-8def-fc28b7d159a5" valueTypeId="c816ee90-5ca7-414a-9888-6ec4f33a8095"/>
+    <recordManagerType typeId="880d1cbd-54ab-4e4b-976f-97418254f92e" valueTypeId="eea2bea2-c0d7-4486-be59-4f6890eb0778"/>
+  </producedTypes>
+  <name>КурсВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курс валют</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1ed61095-de85-44b2-9ea7-0e505cf7ed13">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b3bfb836-fddb-446b-b305-677904a3ddf4">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

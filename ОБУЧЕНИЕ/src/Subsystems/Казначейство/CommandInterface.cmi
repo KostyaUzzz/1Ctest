@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.Казначейство.Subsystem.Документы</subsystems>
+    <subsystems>Subsystem.Казначейство.Subsystem.Отчеты</subsystems>
+    <subsystems>Subsystem.Казначейство.Subsystem.Справочники</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

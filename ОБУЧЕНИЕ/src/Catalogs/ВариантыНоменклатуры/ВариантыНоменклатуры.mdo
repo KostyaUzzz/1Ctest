@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82e7b949-c58e-40f4-9fc4-1c08240d282e">
+  <producedTypes>
+    <objectType typeId="12b43ead-6ef3-4e27-bc72-93ee441f5c76" valueTypeId="a6766f10-69bf-4317-b4b6-4f5c6593abac"/>
+    <refType typeId="86736e27-a010-481e-916e-c90eaba4fbca" valueTypeId="9602a097-a3d2-4656-8b12-b26aebbd6951"/>
+    <selectionType typeId="00f53c72-3e49-44c8-b077-e2e1827f059b" valueTypeId="f66e548d-10f1-4498-ba54-3280ac162d85"/>
+    <listType typeId="e1c45708-1d1b-485d-a966-8d14a16720a3" valueTypeId="33bd055b-3da8-4266-a8d9-c8b978a035e3"/>
+    <managerType typeId="415915a5-1f13-47df-ab37-d2d65c2b566a" valueTypeId="57f7ac8f-bcd9-48ec-ad2d-a01452091817"/>
+  </producedTypes>
+  <name>ВариантыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВариантыНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВариантыНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <characteristics>
+    <characteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</characteristicTypes>
+    <keyField>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Ref</keyField>
+    <typesFilterField>-1</typesFilterField>
+    <typesFilterValue xsi:type="core:UndefinedValue"/>
+    <dataPathField>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Ref</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.ЗначениеСвойствНоменклатуры</characteristicValues>
+    <objectField>InformationRegister.ЗначениеСвойствНоменклатуры.Dimension.НаборыСвойств</objectField>
+    <typeField>InformationRegister.ЗначениеСвойствНоменклатуры.Dimension.ВидСвойства</typeField>
+    <valueField>InformationRegister.ЗначениеСвойствНоменклатуры.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Номенклатура</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВариантыНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВариантыНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <forms uuid="c44d4f83-f550-47a5-9d5c-2e70f98aa8f7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="27920a51-4bcb-4f47-b8d2-1684ed2d91dd">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

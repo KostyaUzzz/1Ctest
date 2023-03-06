@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c4d1504-1611-4c28-a4fe-e64dc26b0a28">
+  <producedTypes>
+    <selectionType typeId="d5fe878f-6fe0-4784-96e7-20652a81cb16" valueTypeId="56c26919-b880-415f-b885-b8a6e9dfc274"/>
+    <listType typeId="278eef52-fd4a-4dff-b219-468f38cd0e84" valueTypeId="41f295f9-2573-494f-a8dc-566b1bcc197f"/>
+    <managerType typeId="265b6ea8-6048-41ac-aefd-37fba26a4b53" valueTypeId="a3d93e13-abb7-4b3c-b646-2876436ad653"/>
+  </producedTypes>
+  <name>БезналичныеПлатежи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Безналичные платежи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.СписаниеСБанковскогоСчёта</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеНаБанковскийСчёт</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="d8b632eb-15a3-4eb4-8773-45a3325d3080">
+    <name>Контрагенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагенты</value>
+    </synonym>
+    <references>Document.СписаниеСБанковскогоСчёта.Attribute.Контрагент</references>
+    <references>Document.ПоступлениеНаБанковскийСчёт.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="83b20af1-f5c0-44ab-8f66-ec68d8caede3">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <references>Document.СписаниеСБанковскогоСчёта.Attribute.Заказ</references>
+    <references>Document.ПоступлениеНаБанковскийСчёт.Attribute.Заказ</references>
+  </columns>
+  <columns uuid="620a97ce-1541-46da-9b0a-900231c8af39">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.СписаниеСБанковскогоСчёта.Attribute.Сумма</references>
+    <references>Document.ПоступлениеНаБанковскийСчёт.Attribute.Сумма</references>
+  </columns>
+</mdclass:DocumentJournal>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b16f671-11fd-4b65-8032-db6b9dd1d759">
+  <name>РегламентныеПроцедуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные процедуры</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0267a5d5-9fa4-4ca3-86a6-bef9fe9bb7c0">
+  <producedTypes>
+    <objectType typeId="9062c134-6586-43b0-9c11-6808e34f65f9" valueTypeId="2c8f53f4-01ba-4be2-819c-05b9b8cf11d1"/>
+    <refType typeId="cdc7f4ca-112c-4a6a-ba32-706c0f6d3426" valueTypeId="0e7cd22d-646a-4594-9578-c0ed768cb61d"/>
+    <selectionType typeId="2466f919-8376-4a38-b27c-1559d3a3cf67" valueTypeId="d3e4c811-69de-4eae-9801-5e1ac50bd2c1"/>
+    <listType typeId="326f7388-79d3-4bce-8657-4d2f0bdf9908" valueTypeId="10a89047-c229-40dc-b89f-293e59bac611"/>
+    <managerType typeId="be2bf323-385b-4276-9b51-fb7671b3bb35" valueTypeId="fd12dc74-dad3-4d26-9d36-fd3cad1a2062"/>
+    <extDimensionTypes typeId="c9b30a1a-8d6b-4286-a247-9ddf5edb5ab5" valueTypeId="fa6d0177-adb6-4a67-818f-19a9f5227bf6"/>
+    <extDimensionTypesRow typeId="06c153a0-0829-44ca-a99f-4abf88217422" valueTypeId="0ff2e80a-49cc-4776-bf98-7dd84bea9866"/>
+  </producedTypes>
+  <name>Основной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.Основной.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfAccounts.Основной.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконто</extDimensionTypes>
+  <maxExtDimensionCount>2</maxExtDimensionCount>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="25e8bc10-2d02-4b8b-8a54-746e71aa0dff">
+      <name>Товары</name>
+      <description>Товары</description>
+      <code>41</code>
+      <accountingFlags>ChartOfAccounts.Основной.AccountingFlag.Количественный</accountingFlags>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Товары</characteristicType>
+        <extDimensionAccountingFlags>ChartOfAccounts.Основной.ExtDimensionAccountingFlag.Количественный</extDimensionAccountingFlags>
+      </extDimensionTypes>
+    </items>
+    <items id="56682e8f-2bfd-4982-9675-4b8b34e1daa2">
+      <name>РасчетыСПоставщиками</name>
+      <description>Расчеты с поставщиками</description>
+      <code>60</code>
+      <accountType>ActivePassive</accountType>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты</characteristicType>
+      </extDimensionTypes>
+    </items>
+    <items id="19538b8f-a9f0-4d52-995d-ae7ad2da1980">
+      <name>РасчетыСПокупателями</name>
+      <description>Расчеты с покупателями</description>
+      <code>62</code>
+      <accountType>ActivePassive</accountType>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагенты</characteristicType>
+      </extDimensionTypes>
+    </items>
+    <items id="be0c2cc3-3b41-42e2-b26a-c6232b559d13">
+      <name>Капитал</name>
+      <description>Капитал</description>
+      <code>90</code>
+      <accountType>ActivePassive</accountType>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <accountingFlags uuid="940ff4d7-354e-490f-9f58-8df15dfe2271">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <extDimensionAccountingFlags uuid="9ef1b7e0-b6e6-4274-a265-f757631a8f70">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+</mdclass:ChartOfAccounts>

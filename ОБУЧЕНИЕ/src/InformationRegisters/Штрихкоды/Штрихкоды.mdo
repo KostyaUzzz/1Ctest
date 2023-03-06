@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="002a0466-89a0-4b48-9713-00357d48a287">
+  <producedTypes>
+    <selectionType typeId="f5b79b2a-7cfb-4e6a-871e-22965e8fceb1" valueTypeId="701e81c7-05f8-421e-936f-9c2042307799"/>
+    <listType typeId="3816f6c5-7af4-4016-91d1-4bd075c53118" valueTypeId="e010607f-2710-4fe4-9784-bd8e590e6c71"/>
+    <managerType typeId="2d393054-158c-42ab-9bc5-b1db59bf7819" valueTypeId="484ae0c6-c833-4a4b-bf95-0e9de75b981a"/>
+    <recordSetType typeId="954addc3-d819-4211-9410-c5b4b20aee2a" valueTypeId="89a28965-06d8-455f-91ed-621e470cfae3"/>
+    <recordKeyType typeId="9108d42b-2dc6-458d-9f99-a447c0f1c3c8" valueTypeId="5327bcf1-9f2d-40f3-b8aa-f47937e82bfe"/>
+    <recordType typeId="05f38579-fccf-4701-ac47-165af435f1a0" valueTypeId="9187cce3-454d-4f33-b156-2825229b3f6d"/>
+    <recordManagerType typeId="5ecc012d-b34f-4a3a-ad63-76f54decac8c" valueTypeId="de9595f6-ebda-4cff-99a7-7d325fe0fc56"/>
+  </producedTypes>
+  <name>Штрихкоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="45d8b436-b026-4197-939d-41a499311095">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="2a98e3f3-78c4-4e86-9ae0-f5a56b6e5b54">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

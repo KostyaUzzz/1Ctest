@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e646ee1-047b-43bb-b8dd-57d146731ef0">
+  <producedTypes>
+    <selectionType typeId="637ab11e-73fc-4850-ba46-c93d44a73b2c" valueTypeId="f2b12770-a248-4339-bc0e-d51a4e8c232e"/>
+    <listType typeId="2bbd454d-c0e4-4ecc-bf9a-2e87c604a848" valueTypeId="7d57244d-9a1c-4cfd-be77-81785e435731"/>
+    <managerType typeId="14967ebc-ae61-401a-8ab0-de324d60f961" valueTypeId="721d10d9-84ad-4ec1-94f0-630cc3872141"/>
+    <recordSetType typeId="c9f05d1f-a3af-402d-a8c8-2696ce044260" valueTypeId="a58ce1b5-8fa4-4bb2-a9e4-96ea24c8b21f"/>
+    <recordKeyType typeId="ddeaba30-e7e2-47a9-877c-ac9c0f1a0910" valueTypeId="b41f66af-d983-439d-8ab4-01cc6c3fde51"/>
+    <recordType typeId="173e0b7f-b356-446a-b72b-795dfda45110" valueTypeId="9f57730b-8404-4e28-a25c-7cda98f1b203"/>
+    <recordManagerType typeId="cb6b56db-915d-4416-a926-6907d9b35445" valueTypeId="da1e716a-32fe-43f2-85c6-9ab9e5cc2341"/>
+  </producedTypes>
+  <name>ЗначениеСвойствНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значение свойств номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Свойство и значение</value>
+  </recordPresentation>
+  <resources uuid="401a56ba-2d88-4178-bf3a-1f2c8697b8ff">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.СвойстваНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ЗначениеСвойствНоменклатуры.Dimension.ВидСвойства</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.ЗначениеСвойствНоменклатуры.Dimension.ВидСвойства</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9a9f902e-24bc-4178-856f-6cdb42079007">
+    <name>НаборыСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наборы свойств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="027fd543-76b7-4f74-bc8d-c76bd788c84b">
+    <name>ВидСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид свойства</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СвойстваНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8227618-a7dd-4213-8b69-531d0a8586a8">
+  <producedTypes>
+    <objectType typeId="57a26494-7886-45ed-a525-a8bcc406668d" valueTypeId="c5fd9330-9d5d-4899-b560-c8942b03a54c"/>
+    <managerType typeId="73551c87-8453-46a2-b531-d38dc5a89e75" valueTypeId="214f8512-5cd1-48c2-bfda-b6a421e8058b"/>
+  </producedTypes>
+  <name>ЦеныПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены поставщиков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЦеныПоставщиков.Template.ОсновнаяСхемаКомпоновкиДанных1</mainDataCompositionSchema>
+  <templates uuid="87443fbf-cd0c-4866-885c-63fe5cdde7b8">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="765f4f12-3893-4fc4-af51-feacd6ab3a11">
+    <name>ОсновнаяСхемаКомпоновкиДанных1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных1</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

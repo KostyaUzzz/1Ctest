@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f525d64-3d0b-4a4b-af2c-c82e19c5edfd">
+  <producedTypes>
+    <objectType typeId="2f913f9b-3b68-43a3-939e-00b29b4f5cb6" valueTypeId="51724f5b-1efa-49b9-9ccd-e10c8b844d2f"/>
+    <managerType typeId="df3bbe4b-269f-4575-b373-f6f861ef39ac" valueTypeId="bb197573-b02f-43ec-adfb-ce3ea0986e43"/>
+  </producedTypes>
+  <name>РейтингКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рейтинг клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed9fb0b0-99fc-47a4-a759-8188d720075c">
+  <producedTypes>
+    <selectionType typeId="5baaeb04-a648-4425-8aab-ccec7dc11c80" valueTypeId="12f7448a-c9f3-404f-91ca-bdd5472fd696"/>
+    <listType typeId="baf61003-ec0d-4b1d-946d-8a6488f4b791" valueTypeId="0fa6e540-6755-4c7f-be72-459ce2922f10"/>
+    <managerType typeId="9caa69f0-c851-48fc-96ba-c1a83e8e2b7a" valueTypeId="ec24fe34-e01e-43f2-8d82-023a65200780"/>
+  </producedTypes>
+  <name>СкладскиеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складские документы</value>
+  </synonym>
+  <defaultForm>DocumentJournal.СкладскиеДокументы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваров</registeredDocuments>
+  <registeredDocuments>Document.РеализацияТоваров</registeredDocuments>
+  <columns uuid="4ebfa3ca-37a2-47af-9682-0c5e561a4efe">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваров.Attribute.Поставщик</references>
+    <references>Document.РеализацияТоваров.Attribute.Покупатель</references>
+  </columns>
+  <columns uuid="df049034-250a-4a28-b52f-2e83f554f493">
+    <name>Контрагенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагенты</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваров.Attribute.Поставщик</references>
+    <references>Document.РеализацияТоваров.Attribute.Покупатель</references>
+  </columns>
+  <columns uuid="0242f74a-70f9-4863-8aa5-0735cd97dff5">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваров.Attribute.Склад</references>
+    <references>Document.РеализацияТоваров.Attribute.Склад</references>
+  </columns>
+  <columns uuid="6f011cfd-348d-4374-b3ba-d4bd6c227b1f">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваров.Attribute.Заказ</references>
+    <references>Document.РеализацияТоваров.Attribute.Заказ</references>
+  </columns>
+  <forms uuid="21249233-781b-459e-8814-bfe9ab513f6f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

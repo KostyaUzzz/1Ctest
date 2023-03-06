@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c9d2177-0e54-4ff7-8cb6-1111a62d0be3">
+  <name>Казначейство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Казначейство</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка4</picture>
+  </picture>
+  <content>Document.УстановкаЦен</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+  <subsystems>Отчеты</subsystems>
+  <subsystems>Банк</subsystems>
+  <subsystems>Касса</subsystems>
+</mdclass:Subsystem>

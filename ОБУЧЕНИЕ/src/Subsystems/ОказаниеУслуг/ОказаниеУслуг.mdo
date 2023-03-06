@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c70aa65d-257e-44f8-a669-a102d3262a51">
+  <name>ОказаниеУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оказание услуг</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Склады</content>
+  <content>Enum.ВидНоменклатуры</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>AccumulationRegister.ОстаткиМатериалов</content>
+  <content>AccumulationRegister.СтоимостьМатериалов</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Document.ОказаниеУслуги</content>
+  <content>Report.Материалы</content>
+  <content>Report.РеестрДокументовОказанияУслуг</content>
+  <content>Report.ВыручкаМастеров</content>
+  <content>Report.РейтингКлиентов</content>
+</mdclass:Subsystem>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31c63f77-ecc2-4d0a-92a0-fbddeff41ac4">
+  <producedTypes>
+    <selectionType typeId="1568c039-28ff-4c7d-a909-cdaf254d02d0" valueTypeId="e5318834-11fe-41fb-813b-d3c6630b1db9"/>
+    <listType typeId="067e07da-a7fa-427c-9e1d-2aa48b26e685" valueTypeId="ff33a03d-4da1-4f0e-8f2f-0426f95cf03e"/>
+    <managerType typeId="ec0d86ff-10d0-4089-88f8-9ab7453d8a1a" valueTypeId="5b23110c-9124-4bd4-9e86-40309272ea5c"/>
+    <recordSetType typeId="da519003-bf28-449c-a66d-fc0ebe1c15e6" valueTypeId="0407921f-2c0c-4f4b-b028-352efe11afa2"/>
+    <recordKeyType typeId="69e0cff8-b7be-4a56-8e3a-a575bcccf9b9" valueTypeId="81dc4fab-0354-4eb6-b3a8-b1281c10a8b5"/>
+    <recordType typeId="14f502d5-bd0f-451f-ac03-6670f7be8026" valueTypeId="9a5dd372-b6df-4015-915a-190d86be80d7"/>
+    <recordManagerType typeId="8839cfdf-1a10-42f5-b288-d5815f51540a" valueTypeId="1911a9b8-aed9-4216-813b-a4d5d59135d9"/>
+  </producedTypes>
+  <name>ОкладыСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оклады сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b3f17bb7-e9e5-4306-90ed-1e9841fcfb48">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>
